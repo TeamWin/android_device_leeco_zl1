@@ -4,5 +4,11 @@
     "repository": "TeamWin/android_device_qcom_common",
     "target_path": "device/qcom/common",
     "revision":"android-6.0"
+  },
+  {
+    "remote":"github",
+    "repository": "jrior001/android_kernel_leeco_msm8996",
+    "target_path": "kernel/leeco/msm8996",
+    "revision":"adnroid-6.0"
   }
 ]
