@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Time Zone data for Recovery
 PRODUCT_COPY_FILES += \
